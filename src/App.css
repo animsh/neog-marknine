@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --off-white-color: #efefef;
+  --border-color: #cccaca;
+  --button-color: #e3e3e3;
+}
+
+body {
+  background-color: var(--off-white-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  max-width: 560px;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+p {
+  font-size: small;
+}
+
+.btn-booktypeselector {
+  background-color: var(--button-color);
+  box-shadow: none;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  font-size: small;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.list-custom {
+  list-style: none;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  width: 70%;
+}
